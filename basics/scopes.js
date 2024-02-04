@@ -8,3 +8,8 @@
 // console.log(b); - error
 // console.log(c); - 30(global scope)
 
+// If we declare function like                     const addTwo = function(){
+//     return "hello"
+// }
+// In this case if we call function before declaration it will give error , while it will not give error if declared normal function not through variable.
+
